@@ -1,7 +1,7 @@
 import { View } from "react-native";
 import { DynamicStyleFunction } from "@/components/DynamicStyleFunction";
 import { DynamicStyleNullFunction } from "@/components/DynamicStyleNullFunction";
-import { UndefinedVariantFunction } from "@/components/UndefinedVariantFunction";
+// import { UndefinedVariantFunction } from "@/components/UndefinedVariantFunction";
 
 export default function ReproScreen() {
   return (
@@ -14,7 +14,7 @@ export default function ReproScreen() {
     >
       <DynamicStyleNullFunction backgroundColor={null} />
       <DynamicStyleFunction fullWidth={false} />
-      <UndefinedVariantFunction />
+      {/* <UndefinedVariantFunction /> */}
     </View>
   );
 }

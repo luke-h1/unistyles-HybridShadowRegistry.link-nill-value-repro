@@ -1,4 +1,3 @@
-import { View } from "react-native";
 import { StyleSheet } from "react-native-unistyles";
 
 interface UndefinedVariantFunctionProps {
@@ -8,13 +7,14 @@ interface UndefinedVariantFunctionProps {
 export function UndefinedVariantFunction({
     isHero,
 }: UndefinedVariantFunctionProps) {
-    // @ts-ignore
-    styles.useVariants(isHero);
+    // // @ts-ignore
+    // styles.useVariants(isHero);
 
-    return (
-        // @ts-ignore
-        <View style={styles.container} />
-    );
+    // return (
+    //     // @ts-ignore
+    //     <View style={styles.container} />
+    // );
+    return null
 }
 
 const styles = StyleSheet.create({

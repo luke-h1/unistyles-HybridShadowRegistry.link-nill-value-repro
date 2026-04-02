@@ -1,4 +1,3 @@
-import { View } from "react-native";
 import { StyleSheet } from "react-native-unistyles";
 
 interface DynamicStyleNullFunctionProps {
@@ -8,8 +7,8 @@ interface DynamicStyleNullFunctionProps {
 export function DynamicStyleNullFunction({
     backgroundColor,
 }: DynamicStyleNullFunctionProps) {
-    // @ts-ignore
-    return <View style={styles.background(backgroundColor)} />;
+    // return <View style={styles.background(backgroundColor)} />;
+    return null
 }
 
 const styles = StyleSheet.create({
